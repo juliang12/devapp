@@ -1,0 +1,20 @@
+.button{
+    padding: 10px 45px;
+    font-weight: 700;
+    border-radius: 5px;
+    border-style: none;
+    background-color: var(--button-light);
+    color: var(--background-light);
+    text-transform: uppercase;
+}
+
+.button:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 760px) {
+    .button{
+        display: none;
+    }
+}
